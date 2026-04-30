@@ -18,11 +18,13 @@ function SectionBar({ dark }) {
           <p
             className={
               dark
+
                 ? "mb-3 text-sm font-bold uppercase tracking-[0.3em] text-blue-400"
+
                 : "mb-3 text-sm font-bold uppercase tracking-[0.3em] text-blue-600"
             }
           >
-            Noteswala
+             Noteswala
           </p>
 
           <h2
