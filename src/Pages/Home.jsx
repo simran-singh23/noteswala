@@ -3,6 +3,10 @@ import SectionBar from "../Components/SectionBar";
 import Books from "./Books";
 import MovingBooks from "../Components/MovingBooks";
 import Notes from "../Components/Notes";
+import HeroSection from "./HeroSection";
+import BackgroundSection from "../Components/BackgroundSection";
+import BooksSection from "../Components/BooksSection";
+import Footer from "../Components/Footer";  
 function Home() {   
 
   const [dark, setDark] = useState(false);
@@ -21,6 +25,10 @@ function Home() {
       <Books />
       <MovingBooks />
            <Notes />  
+              <HeroSection />
+                 <BackgroundSection />
+                       <BooksSection />
+                       <Footer/>
     </div>
   );
 }
