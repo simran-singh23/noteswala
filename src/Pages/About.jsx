@@ -46,7 +46,7 @@ function About() {
 
         
           <div>
-            
+
             <h3 className="text-xl font-semibold mb-3">Quick Links</h3>
             <ul className="space-y-2 text-slate-300">
 
@@ -73,7 +73,7 @@ function About() {
           <div>
             <h3 className="text-xl font-semibold mb-3">Contact</h3>
             <p className="text-slate-300">📧 noteswala@gmail.com</p>
-            <p className="text-slate-300 mt-2">📍 India</p>
+            <p className="text-slate-300 mt-2">📍 India punjab</p>
           </div>
 
         </div>
