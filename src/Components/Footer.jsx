@@ -10,25 +10,23 @@ export default function Footer() {
       
         <div className="flex justify-center">
           <img
-            src={footerImg}
-            alt="footer"
-            className="rounded-2xl shadow-2xl w-64 hover:scale-105 transition duration-500"
+            src={footerImg} alt="footer" className="rounded-2xl
+             shadow-2xl w-64 hover:scale-105 
+             transition duration-500"
           />
         </div>
 
-      
         <div className="text-center">
+         
           <h2 className="text-3xl font-bold mb-4">
-            📚 Start Your Learning Journey
-          </h2>
 
+ 📚 Start Your Learning Journey</h2>
           <p className="text-gray-400">
-            Discover books, notes and knowledge that will shape your future.
+            Discover books, notes and knowledge that will shape your future
           </p>
+          <Link to="/books" className="inline-block mt-5 bg-orange-500
 
-          <Link
-            to="/books"
-            className="inline-block mt-5 bg-orange-500 px-6 py-2 rounded-full hover:bg-orange-600 transition"
+           px-6 py-2 rounded-full hover:bg-orange-600 transition"
           >
             Explore Now
           </Link>

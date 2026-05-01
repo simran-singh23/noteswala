@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function SectionBar({ dark }) {
   return (
     <section
@@ -47,9 +48,11 @@ function SectionBar({ dark }) {
             Discover thousands of free books and expand your knowledge.
           </p>
 
-          <button className="mt-6 rounded-lg bg-blue-600 px-5 py-3 font-semibold text-white transition hover:bg-blue-700">
-            Explore More
-          </button>
+         <Link to="/Explore">
+  <button className="mt-6 rounded-lg bg-blue-600 px-5 py-3 font-semibold text-white hover:bg-blue-700">
+    Explore More
+  </button>
+</Link>
         </div>
 
         <div>

@@ -8,6 +8,7 @@ import Products from "./Pages/Products";
 import BookDetail from "./Pages/BookDetail";
 import BookView from "./Pages/BookView"
 import NoteView from "./Pages/NoteView";
+import Explore from "./Pages/Explore";
 function App() {
   return (
     <BrowserRouter>
@@ -28,6 +29,7 @@ function App() {
   <Route path="/book/:id" element={<BookView />} />
 
 <Route path="/note/:id" element={<NoteView />} />
+<Route path="/Explore" element={<Explore />} />     
       </Routes> 
     </BrowserRouter>
     
